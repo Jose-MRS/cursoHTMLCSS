@@ -3,18 +3,54 @@ h1{
 }
 
 .morado{
-    background-color: blueviolet;
+    background-color:rgb(185, 139, 223);
 }
 
 #cap .rojito{
     background-color: red;
+    color: white
 }
 
 #cap .gris{
     background-color: grey;
+    font-size:200%;
+    padding:30px;
 }
 
 #cap .amarillo{
     background-color: yellow;
+    padding:50px;
 }
 
+.trojo{
+    color:red
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+img{
+    width:50px;
+    height:50px;
+}
+
+#cap .grosor{
+    background-color: red;
+    color: white;
+    border-collapse: collapse;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#im .morado{
+    background-color: rgb(185, 139, 223);
+    text-align: center;
+}
+
+#cap .crojo{
+    color:red;
+    margin-left:30px;
+}
