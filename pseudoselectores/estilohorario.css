@@ -1,0 +1,43 @@
+h4{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+table, th, td{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+a:link{
+    color:green;
+    text-decoration: none;
+}
+
+a:visited {
+    color:red;
+    text-decoration: none;
+}
+
+td:hover:last-of-type{
+    font-size:200%;
+}
+th:hover:last-of-type{
+    font-size:200%;
+}
+
+p:first-of-type{
+    color:red;
+}
+p:last-of-type{
+    color:red;
+}
+tr:first-of-type th:first-letter{
+    font-size: 200%;
+}
+
+td:first-of-type{
+    background-color: green;
+}
