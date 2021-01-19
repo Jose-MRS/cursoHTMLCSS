@@ -54,3 +54,7 @@ input:required{
     border-color:red;
     padding:10px;
 }
+label::after{
+    content:"*";
+    color:red;
+}
