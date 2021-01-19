@@ -40,17 +40,17 @@ th:hover:last-of-type{
     font-size:200%; 
 }
 tr:nth-child(4) th:last-of-type{background-color: yellow;}
-
-p:first-of-type{
-    color:red;
-}
-p:last-of-type{
-    color:red;
-}
 tr:first-of-type th:first-letter{
     font-size: 200%;
 }
 
 td:first-of-type{
     background-color: green;
+}
+input::placeholder{
+    color:gray;
+}
+input:required{
+    border-color:red;
+    padding:10px;
 }
