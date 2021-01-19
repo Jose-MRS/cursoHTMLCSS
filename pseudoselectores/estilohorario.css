@@ -21,12 +21,25 @@ a:visited {
     text-decoration: none;
 }
 
-td:hover:last-of-type{
+tr:nth-child(1) td:hover:last-of-type{
+    font-size:200%;
+}
+tr:nth-child(2) td:hover:last-of-type{
+    font-size:200%;
+}
+tr:nth-child(3) td:hover:last-of-type{
+    font-size:200%;
+}
+tr:nth-child(5) td:hover:last-of-type{
+    font-size:200%;
+}
+tr:nth-child(6) td:hover:last-of-type{
     font-size:200%;
 }
 th:hover:last-of-type{
-    font-size:200%;
+    font-size:200%; 
 }
+tr:nth-child(4) th:last-of-type{background-color: yellow;}
 
 p:first-of-type{
     color:red;
