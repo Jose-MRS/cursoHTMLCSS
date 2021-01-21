@@ -2,8 +2,8 @@
     background-color: rgb(218, 218, 218);
     margin: 100px auto;
     position: relative;
-    height: 600px;
-    width: 75%;
+    height: 700px;
+    width: 80%;
 }
 
 .principal nav{
@@ -17,7 +17,7 @@
 .principal nav div{
     display: inline-block;
     padding:5px;
-    width: 5%;
+    width: 20%;
 }
 
 figure{
@@ -31,10 +31,10 @@ figure{
     position: absolute;
     -webkit-transform: rotate(-60deg);
     transform: rotate(-60deg);
-    z-index:40;
+    z-index:50;
     left: 10%;
     top: 30%;
-    height: 25%; width: 15%;
+    height: 150px; width: 210px;
 }
 #f2{
     position: absolute;
@@ -43,25 +43,25 @@ figure{
     z-index:30;
     left: 20%;
     top: 35%;
-    height: 25%; width: 15%;
+    height: 150px; width: 210px;
 }
 #f3{
     position: absolute;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
-    z-index:20;
+    z-index:30;
     left: 30%;
     top: 40%;
-    height: 25%; width: 15%;
+    height: 150px; width: 210px;
 }
 #f4{
     position: absolute;
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
-    z-index:10;
+    z-index:20;
     left: 40%;
     top: 45%;
-    height: 25%; width: 15%;
+    height: 150px; width: 210px;
 }
 .lateral img{
     height: 50px;
@@ -76,6 +76,7 @@ figure{
     text-align: center;
     top:30%;
     width:80px;
-    width:10%;
+    width:120px;
+    font-size: 0.8em;
 }
 
