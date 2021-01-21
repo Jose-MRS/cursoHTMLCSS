@@ -31,33 +31,37 @@ figure{
     position: absolute;
     -webkit-transform: rotate(-60deg);
     transform: rotate(-60deg);
-    z-index:10;
+    z-index:40;
     left: 10%;
     top: 30%;
+    height: 25%; width: 15%;
 }
 #f2{
     position: absolute;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    z-index:20;
+    z-index:30;
     left: 20%;
     top: 35%;
+    height: 25%; width: 15%;
 }
 #f3{
     position: absolute;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
-    z-index:30;
+    z-index:20;
     left: 30%;
     top: 40%;
+    height: 25%; width: 15%;
 }
 #f4{
     position: absolute;
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
-    z-index:40;
+    z-index:10;
     left: 40%;
     top: 45%;
+    height: 25%; width: 15%;
 }
 .lateral img{
     height: 50px;
