@@ -43,6 +43,7 @@ figure{
     width:10%;
     float:left;
     margin-top:10px;
+    margin-right: 10px;
 }
 
 .lateral div{
@@ -54,10 +55,22 @@ figure{
 
 section.cursos{
     float:left;
+    width:80%;
+}
 
-
+section div.cursos{
+    border: 2px solid black;
+    float: left;
+    padding:10px;
+    margin-top: 10px;
+    text-align: center;
+    width:30%;
 }
 section.arti{
+    margin-left: 60px;
+    column-count: 3;
     float:left;
+    width:60%
 
 }
+section{display:block;}
