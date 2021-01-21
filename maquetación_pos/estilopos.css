@@ -1,5 +1,5 @@
 .principal{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(218, 218, 218);
     margin: 100px auto;
     position: relative;
     height: 600px;
@@ -7,14 +7,50 @@
 }
 
 .principal nav{
-    background-color: rgb(50, 145, 148);
+    background-color: rgb(93, 175, 223);
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index:100;
 }
 
+.principal nav div{
+    display: inline-block;
+    padding:5px;
+    width: 5%;
+}
+
+figure{
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+#f1{
+    position: absolute;
+    -webkit-transform: rotate(-60);
+    z-index:10;
+}
+#f2{
+    position: absolute;
+    -webkit-transform: rotate(-45);
+    z-index:20;
+}
+#f3{
+    position: absolute;
+    -webkit-transform: rotate(-30);
+    z-index:30;
+}
+#f4{
+    position: absolute;
+    -webkit-transform: rotate(-15);
+    z-index:40;
+}
 .lateral img{
     height: 50px;
     width: 50px;
 }
+
+
+
