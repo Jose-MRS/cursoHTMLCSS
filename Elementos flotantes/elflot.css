@@ -20,6 +20,11 @@
     padding:5px;
     width: 20%;
 }
+.contenedor footer{
+    background-color: rgb(201, 201, 201);
+    color:black;
+    padding:10px;
+}
 
 figure{
     background-color: white;
