@@ -1,7 +1,20 @@
+.principal{
+    background-color: rgb(180, 180, 180);
+    margin: 100px auto;
+    position: relative;
+    height: 600px;
+    width: 75%;
+}
+
 .principal nav{
     background-color: rgb(50, 145, 148);
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index:100;
+}
+
+.lateral img{
+    height: 50px;
+    width: 50px;
 }
