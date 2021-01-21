@@ -81,3 +81,10 @@ section{display:block;}
 .contenedor{
     text-align:center;
 }
+.f1 p
+{
+    display:inline-block;
+    width:"80px";
+    margin-left:"10px";
+    margin-right:"10px";
+}
