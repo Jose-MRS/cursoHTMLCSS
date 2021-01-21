@@ -29,28 +29,49 @@ figure{
 
 #f1{
     position: absolute;
-    -webkit-transform: rotate(-60);
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
     z-index:10;
+    left: 10%;
+    top: 30%;
 }
 #f2{
     position: absolute;
-    -webkit-transform: rotate(-45);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     z-index:20;
+    left: 20%;
+    top: 35%;
 }
 #f3{
     position: absolute;
-    -webkit-transform: rotate(-30);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
     z-index:30;
+    left: 30%;
+    top: 40%;
 }
 #f4{
     position: absolute;
-    -webkit-transform: rotate(-15);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
     z-index:40;
+    left: 40%;
+    top: 45%;
 }
 .lateral img{
     height: 50px;
     width: 50px;
 }
 
-
+.lateral{
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position:fixed;
+    text-align: center;
+    top:30%;
+    width:80px;
+    width:10%;
+}
 
