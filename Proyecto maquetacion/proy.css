@@ -92,3 +92,17 @@ section{display:block;}
 .centro h1{
     color: rgb(0, 73, 33);
 }
+
+.prod p::first-letter{
+ color:red;
+ font-size: 30px;    
+ border-right: 1px solid rgb(18, 24, 103);
+ border-bottom: 1px solid rgb(18, 24, 103);
+ padding-right: 5px;
+ margin-right: 4px;
+}
+.prod p{
+    float:left;
+    color: rgb(0, 73, 33);
+    font-weight: bolder;
+}
