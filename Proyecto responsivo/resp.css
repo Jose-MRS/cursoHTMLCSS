@@ -20,8 +20,9 @@ main{
     flex-wrap: wrap;
 }
 
-.abajo h2,h3,p{
+article h2,h3,p{
     font-family: "Righteous", cursive;
+    width:25%;
 }
 .Descr p,h3{
     font-family: "Times New Roman";
@@ -30,10 +31,49 @@ main{
 section.fotos{
     display: flex;
     flex-wrap: wrap;
-    height:"33%"; 
-    width:"33%";
 }
 article{
-    width:25%;
     display:block;
 }
+
+section.fotos img{
+    height: 100px;
+    width:25%;
+}
+main section {
+    width: 100%;
+  }
+
+article h3,h2,p{
+
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+article p{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+
+@media screen and (min-width: 992px) {
+    .hidden {
+      display: block;
+    }
+  
+    section.fotos {
+      order: 1;
+    }
+  
+    section.descr {
+      order: 2;
+    }
+  
+    section.fotos img {
+      height: 33%;
+      width: 33%;
+    }
+  }
