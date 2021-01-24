@@ -103,3 +103,13 @@ header{
         margin-left: 10%;
         width: 20%;
     }
+
+      aside a {
+        background-color: rgb(24, 61, 17);
+        color: white;
+        margin-top: 40px;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+    }
+      
