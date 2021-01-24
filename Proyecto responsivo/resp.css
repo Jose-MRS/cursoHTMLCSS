@@ -24,8 +24,14 @@ main section{
     width:100%;
 }
 
-article h2,h3,p{
+article p{
     font-family: "Righteous", cursive;
+    color:black;
+    
+}
+.abajo #verde{
+    font-family: "Righteous", cursive;
+    color: green;
 }
 .Descr p,h3{
     font-family: "Times New Roman";
@@ -37,7 +43,7 @@ article h2,h3,p{
 }
 
 section.fotos{
-    width:50%;
+    width:25%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -55,12 +61,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.hidden{
+.oculto{
     display:none;
 }
 .abajo > *{
     display: inline-block;
     width:23%;
+}
+.abajo{
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 992px) {
@@ -79,5 +88,36 @@ header{
     section.fotos img {
       height: 33%;
       width: 33%;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    nav {
+      display: flex;
+    }
+  
+    .nav-menu {
+      display: inline-block;
+    }
+  
+    .icon {
+      display: none;
+    }
+  
+    .abajo {
+      display: flex;
+    }
+  
+    .abajo > * {
+      width: 25%;
+    }
+  
+    section.principal, section.fotos {
+      width: 50%;
+    }
+  
+    section.fotos img {
+      width: 50%;
+      height: 25%;
     }
   }
