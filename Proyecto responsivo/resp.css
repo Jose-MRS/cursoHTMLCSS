@@ -16,4 +16,13 @@ nav{
 }
 main{
     background-color: rgb(212, 194, 229);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abajo h2,h3,p{
+    font-family: "Righteous", cursive;
+}
+.Descr p,h3{
+    font-family: "Times New Roman";
 }
