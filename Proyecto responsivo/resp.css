@@ -26,3 +26,14 @@ main{
 .Descr p,h3{
     font-family: "Times New Roman";
 }
+
+section.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    height:"33%"; 
+    width:"33%";
+}
+article{
+    width:25%;
+    display:block;
+}
