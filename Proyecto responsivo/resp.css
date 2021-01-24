@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    width:100%;
 }
 
 h1,h2,h3{
@@ -19,22 +20,26 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
+main section{
+    width:100%;
+}
 
 article h2,h3,p{
     font-family: "Righteous", cursive;
-    width:25%;
 }
 .Descr p,h3{
     font-family: "Times New Roman";
 }
 
+.Descr{
+    width:50%;
+    float:left;
+}
+
 section.fotos{
+    width:50%;
     display: flex;
     flex-wrap: wrap;
-}
-article{
-    column-count: 3;
-    box-sizing: content-box;
 }
 
 section.fotos img{
@@ -45,15 +50,17 @@ main section {
     width: 100%;
   }
 
-article h3,h2,p{
-    padding:20px;
-    font-weight: bold;
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-article p{
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+.hidden{
+    display:none;
+}
+.abajo > *{
+    display: inline-block;
+    width:23%;
 }
 
 @media screen and (min-width: 992px) {
