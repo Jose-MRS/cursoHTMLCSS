@@ -67,18 +67,16 @@ text-align:center;
  margin-right: 4px;
 }
 .prod div{
-    text-align: center;
-    width:"10%";
-    float:left;
-    color: rgb(0, 73, 33);
+    padding:"80px";
+   color: rgb(0, 73, 33);
     font-weight: bolder;
     margin-top: 10px;
-    text-align: justify;
 }
 .prod{
-
-    display:inline-block;
     float:left;
+    overflow-y: auto;
+    width: 70%;
+    margin: 30px auto;
 }
 aside {
     background-color: rgb(150, 235, 147);
@@ -96,7 +94,12 @@ header{
     position: relative;
     text-align: center;}
 .produ{
-    display:block;
+    display:inline-block;
         margin:20px;
         text-align:center;
+    }
+.prod img {
+        float: left;
+        margin-left: 10%;
+        width: 20%;
     }
