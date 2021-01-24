@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    margin: 0px;
+    padding: 0.5em;
+}
+
+h1{
+    color:rgb(99, 162, 221);
+}
+nav{
+    color:rgb(99, 162, 221);
+    font-weight: bolder;
+}
+main{
+    background-color: rgb(212, 194, 229);
+}
